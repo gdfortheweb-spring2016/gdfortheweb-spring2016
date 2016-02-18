@@ -1,4 +1,4 @@
-# Workshop 1
+# Exercise 1
 
 Choose a poem. (See [poets.org](http://www.poets.org/) or [poetryfoundation.org](http://www.poetryfoundation.org)) Copy and paste the title, author, and full text into a new HTML document.
 
