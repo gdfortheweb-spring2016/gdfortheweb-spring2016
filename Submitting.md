@@ -1,7 +1,7 @@
 # Submitting work
 
-Put all of your work in your repo:
-gdfortheweb-spring2016-YOURFIRSTNAME
+Put all of your work in your personal repository:
+`gdfortheweb-spring2016-YOURFIRSTNAME`.
 
 Follow this outline and naming convention for your files/folders:
 
