@@ -7,11 +7,11 @@ Follow this outline and naming convention for your files/folders:
 
 * index.html
 * exercise1/
-* * index.html
-* * (and other files)
+  * index.html
+  * (and other files)
 * project1/
-* * index.html
-* * (and other files)
+  * index.html
+  * (and other files)
 
 Note:
 * Make sure to sync all of your changes to GitHub.
