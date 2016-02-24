@@ -12,8 +12,8 @@
 
 - _Due_ — Project 1 (complete draft) and Exercise 1
 - Crit Project 1
-- Workshop 2 — Basic CSS
-- Exercise 2 — CSS poem
+- [Workshop 2 — Basic CSS](Workshop2.md)
+- [Exercise 2 — CSS text](Exercise2.md)
 
 ## Week 3
 
