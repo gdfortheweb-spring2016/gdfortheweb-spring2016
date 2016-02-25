@@ -12,48 +12,48 @@
 
 - _Due_ — Project 1 (complete draft) and Exercise 1
 - Crit Project 1
-- [Workshop 2 — Basic CSS](Workshop2.md)
-- [Exercise 2 — CSS text](Exercise2.md)
 
 ## Week 3
 
-- _Due_ — Project 1 (final) and Exercise 2
+- _Due_ — Project 1 (final)
 - Crit Project 1
-- Workshop 3 — Basic JS
-- Exercise 3 — TBA
+- [Workshop 2 — Basic CSS](Workshop2.md)
+- [Exercise 2 — CSS text](Exercise2.md)
 - Begin Project 2
 
 ## Week 4
 
-- _Due_ — Project 2 (complete draft) and Exercise 3
+- _Due_ — Project 2 (complete draft) and Exercise 2
 - Crit Project 2
-- Workshop 4 — Advanced CSS I
+- Workshop 3 — Basic JS
+- Exercise 3 — TBA
 - Exercise 4 — TBA
 
 ## Week 5
 
-- _Due_ — Project 2 (final) and Exercise 4
+- _Due_ — Project 2 (final) and Exercise 3
 - Crit Project 2
-- Workshop 5 — Advanced CSS II
-- Exercise 5 — TBA
+- Workshop 4 — Advanced CSS I
 - Begin Project 3
 
 ## Week 6
 
-- _Due_ — Project 3 (complete draft) and Exercise 5
+- _Due_ — Project 3 (complete draft) and Exercise 4
 - Crit Project 3
-- Workshop 6 — Advanced JS
-- Exercise 6 — TBA
+- Workshop 5 — Advanced CSS II
+- Exercise 5 — TBA
 
 ## Week 7
 
-- _Due_ — Project 3 (final) and Exercise 6
+- _Due_ — Project 3 (final) and Exercise 5
 - Crit Project 3
+- Workshop 6 — Advanced JS
+- Exercise 6 — TBA
 - Begin final project
 
 ## Week 8
 
-- _Due_ — Final project (rough concepts)
+- _Due_ — Final project (rough concepts) and Exercise 6
 - Crit final projects
 
 ## Week 9
