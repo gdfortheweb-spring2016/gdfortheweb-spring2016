@@ -6,7 +6,7 @@
 * [Bo-Won](http://bowonkeum.github.io/gdfortheweb-spring2016-BOWON/index.html)
 * [Wooksang](http://wooksang.github.io/gdfortheweb-spring2016-wooksang)
 * [Drew](http://dlitowit.github.io/gdfortheweb-spring2016-drew/)
-* [Jose](http://)
+* [Jose](http://jmenende.github.io/gdfortheweb-spring2016-jose/)
 * [June](http://juneberry.github.io/gdfortheweb-spring2016-june)
 * [Min Ryung](http://minryung.github.io/gdfortheweb-spring2016-minryung)
 * [Boyang](http://boyangxia.github.io/gdfortheweb-spring2016-boyang)
