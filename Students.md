@@ -4,7 +4,7 @@
 * [Llewellyn](url)
 * [Manny](url)
 * [Bo-Won](http://bowonkeum.github.io/gdfortheweb-spring2016-BOWON/index.html)
-* [Wooksang](http://wooksang.github.io/gdfortheweb-spring2016-wooksang)
+* [Wooksang](http://wooksangkwon.github.io/gdfortheweb-spring2016-wooksang)
 * [Drew](http://dlitowit.github.io/gdfortheweb-spring2016-drew/)
 * [Jose](http://jmenende.github.io/gdfortheweb-spring-2016-jose/)
 * [June](http://juneberry.github.io/gdfortheweb-spring2016-june)
