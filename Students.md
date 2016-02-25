@@ -8,7 +8,7 @@
 * [Manny](url)
 * [Bo-Won](url)
 * [Wooksang](url)
-* [Drew](url)
+* [Drew](http://dlitowit.github.io/gdfortheweb-spring2016-drew/)
 * [Jose](url)
 * [June](url)
 * [Min Ryung](url)
