@@ -5,6 +5,7 @@
 * Selectors: element and class
 * Properties
 * Values
+* Units
 * Pseudo elements
 
 # How styles are applied
@@ -20,5 +21,5 @@
 
 # Some common styles
 
-* Typography: font-family, font-size, font-style, line-height, letter-spacing, text-decoration
+* Typography: font-family, font-size, font-style, line-height, letter-spacing, text-decoration, @font-face
 * Form: color, background-color, background-image, border, margin, padding, width, height

@@ -8,7 +8,7 @@ Try:
 - Linking between pages
 - Repeating or otherwise manipulating text
 
-By the end of the class, aim to have a new interactive version of your poem that changes the experience for the reader of your poem. You’ll share your finished poem with the class.
+By the end of the class, aim to have a new interactive version of your poem that changes the experience for the reader of your poem. You’ll share your finished website with the class.
 
 References:
 - Raymond Queneau, _Cent mille milliards de poèmes_
