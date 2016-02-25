@@ -3,7 +3,7 @@
 * [your first name](the URL of your github repo)
 
 * [Yoo Jeong](url)
-* [Cem](url)
+* [Cem](http://cemeskinazi.github.io/gdfortheweb-spring2016-cem)
 * [Llewellyn](url)
 * [Manny](url)
 * [Bo-Won](url)
