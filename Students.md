@@ -1,6 +1,5 @@
 # Students
 
-* [Yoo Jeong](url)
 * [Cem](http://cemeskinazi.github.io/gdfortheweb-spring2016-cem)
 * [Llewellyn](url)
 * [Manny](url)
