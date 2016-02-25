@@ -12,5 +12,5 @@
 * [Min Ryung](url)
 * [Boyang](url)
 * [Ruba](url)
-* [Chenhao](url)
+* [Lobbin](http://lobbinliu.github.io/gdfortheweb-spring2016-lobbin)
 * [Jane](url)
