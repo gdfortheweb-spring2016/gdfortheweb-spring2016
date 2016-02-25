@@ -1,12 +1,10 @@
 # Students
 
-* [your first name](the URL of your github repo)
-
 * [Yoo Jeong](url)
 * [Cem](http://cemeskinazi.github.io/gdfortheweb-spring2016-cem)
 * [Llewellyn](url)
 * [Manny](url)
-* [Bo-Won](url)
+* [Bo-Won](http://bowonkeum.github.io/gdfortheweb-spring2016-bowon/)
 * [Wooksang](url)
 * [Drew](http://dlitowit.github.io/gdfortheweb-spring2016-drew/)
 * [Jose](url)
