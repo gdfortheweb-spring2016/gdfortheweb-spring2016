@@ -4,7 +4,7 @@
 * [Cem](http://cemeskinazi.github.io/gdfortheweb-spring2016-cem)
 * [Llewellyn](url)
 * [Manny](url)
-* [Bo-Won](http://bowonkeum.github.io/gdfortheweb-spring2016-bowon/)
+* [Bo-Won](http://bowonkeum.github.io/gdfortheweb-spring2016-BOWON/)
 * [Wooksang](url)
 * [Drew](http://dlitowit.github.io/gdfortheweb-spring2016-drew/)
 * [Jose](url)
