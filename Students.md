@@ -10,7 +10,7 @@
 * [Wooksang](url)
 * [Drew](http://dlitowit.github.io/gdfortheweb-spring2016-drew/)
 * [Jose](url)
-* [June](url)
+* [June](http://juneberry.github.io/gdfortheweb-spring2016-june)
 * [Min Ryung](url)
 * [Boyang](url)
 * [Ruba](url)
