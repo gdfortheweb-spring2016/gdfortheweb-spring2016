@@ -11,6 +11,6 @@
 * [June](http://juneberry.github.io/gdfortheweb-spring2016-june)
 * [Min Ryung](url)
 * [Boyang](url)
-* [Ruba](url)
+* [Ruba](http://raleryan.github.io/gdfortheweb-spring2016-ruba)
 * [Lobbin](http://lobbinliu.github.io/gdfortheweb-spring2016-lobbin)
 * [Jane](url)
