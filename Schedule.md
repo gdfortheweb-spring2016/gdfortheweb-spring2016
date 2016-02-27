@@ -27,13 +27,13 @@
 - Crit Project 2
 - Workshop 3 — Basic JS
 - Exercise 3 — TBA
-- Exercise 4 — TBA
 
 ## Week 5
 
 - _Due_ — Project 2 (final) and Exercise 3
 - Crit Project 2
 - Workshop 4 — Advanced CSS I
+- Exercise 4 — TBA
 - Begin Project 3
 
 ## Week 6
