@@ -1,6 +1,6 @@
 # Schedule
 
-## ☞ Week 1
+## Week 1
 
 - Review [Syllabus](Syllabus.md)
 - Introductions
@@ -13,7 +13,7 @@
 - _Due_ — Project 1 (complete draft) and Exercise 1
 - Crit Project 1
 
-## Week 3
+## ☞ Week 3
 
 - _Due_ — Project 1 (final)
 - Crit Project 1
