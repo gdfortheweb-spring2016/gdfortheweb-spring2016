@@ -25,45 +25,43 @@
 
 - _Due_ — Project 2 (complete draft) and Exercise 2
 - Crit Project 2
-- Workshop 3 — Basic JS
-- Exercise 3 — TBA
 
 ## Week 5
 
-- _Due_ — Project 2 (final) and Exercise 3
+- _Due_ — Project 2 (final)
 - Crit Project 2
-- Workshop 4 — Advanced CSS I
-- Exercise 4 — TBA
+- Workshop 3 — Basic JS
+- Exercise 3 — TBA
 - Begin Project 3
 
 ## Week 6
 
-- _Due_ — Project 3 (complete draft) and Exercise 4
+- _Due_ — Project 3 (complete draft) and Exercise 3
 - Crit Project 3
-- Workshop 5 — Advanced CSS II
-- Exercise 5 — TBA
 
 ## Week 7
 
-- _Due_ — Project 3 (final) and Exercise 5
+- _Due_ — Project 3 (final)
 - Crit Project 3
-- Workshop 6 — Advanced JS
-- Exercise 6 — TBA
+- Workshop 4 — Advanced CSS (Layout)
+- Exercise 4 — TBA
 - Begin final project
 
 ## Week 8
 
-- _Due_ — Final project (rough concepts) and Exercise 6
+- _Due_ — Final project (rough concepts) and Exercise 4
 - Crit final projects
 
 ## Week 9
 
 - _Due_ — Final project (revised concept, rough plan)
+- Workshop 5 — Advanced CSS (Topics)
+- Exercise 5 — TBA
 - Crit final projects
 
 ## Week 10
 
-- _Due_ — Final project (revised plan, rough build)
+- _Due_ — Final project (revised plan, rough build) and Exercise 5
 - Crit final projects
 
 ## Week 11

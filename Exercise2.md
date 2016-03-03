@@ -16,4 +16,3 @@ By the end of the class, aim to have a new, 1-page version of your text that use
 References:
 
 * Michael Rock, [Fuck Content](http://2x4.org/ideas/2/fuck-content/)
-* Olia Lialina, A Vernacular Web [1](http://art.teleportacia.org/observation/vernacular/) & [2](http://contemporary-home-computing.org/vernacular-web-2/)

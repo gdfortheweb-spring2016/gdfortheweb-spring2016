@@ -1,9 +1,9 @@
 # Submitting work
 
-Put all of your work in your personal repository:
+Place your work in a repository:
 `gdfortheweb-spring2016-YOURFIRSTNAME`.
 
-Follow this outline and naming convention for your files/folders:
+Follow this outline and naming convention:
 
 * index.html
 * exercise1/
@@ -14,7 +14,7 @@ Follow this outline and naming convention for your files/folders:
   * (and other files)
 
 Note:
-* Make sure to sync all of your changes to GitHub.
-* Make sure you’re using the `gh-pages` branch, so that your files will appear online via GitHub Pages.
-* Make sure each folder contains an `index.html` file.
-* Make sure your links use relative paths.
+* Sync all changes to GitHub.
+* Use the `gh-pages` branch so files are published via GitHub Pages.
+* Each folder needs an `index.html` file.
+* Use relative paths for links.

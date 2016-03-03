@@ -29,7 +29,7 @@
 * [Can I Use?](http://caniuse.com)
 * [Codecademy](http://codecademy.com)
 
-## HTML basics
+## Basic HTML
 
 * What is a tag
 * Opening/closing tags

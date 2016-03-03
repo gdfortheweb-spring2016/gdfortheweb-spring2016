@@ -14,7 +14,7 @@
 * Cascade
 * Specificity
 
-# Adding styles to a webpage
+# Adding styles to a page
 
 * Linked stylesheet
 * `<style>` tag
@@ -23,3 +23,4 @@
 
 * Typography: font-family, font-size, font-style, line-height, letter-spacing, text-decoration, @font-face
 * Form: color, background-color, background-image, border, margin, padding, width, height
+* Media queries
