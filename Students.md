@@ -7,7 +7,7 @@
 * [Jane](http://janedahye.github.io/gdfortheweb-spring2016-jane/)
 * [Jose](http://jmenende.github.io/gdfortheweb-spring-2016-jose/)
 * [June](http://juneberry.github.io/gdfortheweb-spring2016-june/)
-* [Llewellyn](url)
+* [Llewellyn](http://llhensley.github.io/gdfortheweb-spring2016-LLEWELLYN/project1/index.html)
 * [Lobbin](http://lobbinliu.github.io/gdfortheweb-spring2016-lobbin/)
 * [Manny](url)
 * [Min Ryung](http://minryung.github.io/gdfortheweb-spring2016-minryung/)
