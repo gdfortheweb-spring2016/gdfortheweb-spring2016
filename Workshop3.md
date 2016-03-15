@@ -12,16 +12,18 @@
 
 # Basic JQuery
 
+* Using selectors
+* Binding functions
 * Document ready
-* Selectors
-* Anonymous functions
 
 # Common JQuery functions
 
 * click, hover
-* addClass, removeClass, toggleClass
+* addClass, removeClass, toggleClass, css
+* scroll
 
 # Patterns
 
 * Toggling classes
 * Classes and child selectors
+* Randomization

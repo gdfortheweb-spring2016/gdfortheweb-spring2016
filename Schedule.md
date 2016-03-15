@@ -19,7 +19,7 @@
 - Crit Project 1
 - [Workshop 2 — Basic CSS](Workshop2.md)
 - [Exercise 2 — CSS text](Exercise2.md)
-- Begin Project 2
+- Begin [Project 2](Project2.md)
 
 ## ☞ Week 4
 
@@ -30,9 +30,9 @@
 
 - _Due_ — Project 2 (final)
 - Crit Project 2
-- Workshop 3 — Basic JS
-- Exercise 3 — TBA
-- Begin Project 3
+- Workshop 3 — Basic JS/JQuery
+- Exercise 3 — Visual composition
+- Begin [Project 3](Project3.md)
 
 ## Week 6
 
