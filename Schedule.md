@@ -21,17 +21,17 @@
 - [Exercise 2 — CSS text](Exercise2.md)
 - Begin [Project 2](Project2.md)
 
-## ☞ Week 4
+## Week 4
 
 - _Due_ — Project 2 (complete draft) and Exercise 2
 - Crit Project 2
 
-## Week 5
+## ☞ Week 5
 
 - _Due_ — Project 2 (final)
 - Crit Project 2
-- Workshop 3 — Basic JS/JQuery
-- Exercise 3 — Visual composition
+- [Workshop 3 — Basic JS/JQuery](Workshop3.md)
+- [Exercise 3 — Visual composition](Exercise3.md)
 - Begin [Project 3](Project3.md)
 
 ## Week 6
