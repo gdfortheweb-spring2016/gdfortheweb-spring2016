@@ -1,5 +1,7 @@
 # Exercise 3
 
+Make an HTML page with 100 empty <div> tags.
+
 Make a visual composition that changes in response to user input.
 
 -or-
