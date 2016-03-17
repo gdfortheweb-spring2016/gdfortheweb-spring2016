@@ -9,7 +9,6 @@
 * [June](http://juneberry.github.io/gdfortheweb-spring2016-june/)
 * [Llewellyn](http://llhensley.github.io/gdfortheweb-spring2016-LLEWELLYN/)
 * [Lobbin](http://lobbinliu.github.io/gdfortheweb-spring2016-lobbin/)
-* [Manny](url)
 * [Min Ryung](http://minryung.github.io/gdfortheweb-spring2016-minryung/)
 * [Ruba](http://raleryan.github.io/gdfortheweb-spring2016-ruba/)
 * [Wooksang](http://wooksangkwon.github.io/gdfortheweb-spring2016-wooksang/)
