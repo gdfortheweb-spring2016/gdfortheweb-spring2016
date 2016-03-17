@@ -39,6 +39,8 @@
 - _Due_ — Project 3 (complete draft) and Exercise 3
 - Crit Project 3
 
+## Break
+
 ## Week 7
 
 - _Due_ — Project 3 (final)
