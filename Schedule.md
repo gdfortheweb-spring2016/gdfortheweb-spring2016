@@ -34,7 +34,7 @@
 - [Exercise 3 — Visual composition](Exercise3.md)
 - Begin [Project 3](Project3.md)
 
-## ▶ Week 6
+## ☞ Week 6
 
 - _Due_ — Project 3 (complete draft) and Exercise 3
 - Crit Project 3
