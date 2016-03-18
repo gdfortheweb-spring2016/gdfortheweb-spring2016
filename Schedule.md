@@ -45,8 +45,8 @@
 
 - _Due_ — Project 3 (final)
 - Crit Project 3
-- Workshop 4 — Advanced CSS (Layout)
-- Exercise 4 — TBA
+- Workshop 4 — Advanced CSS
+- Exercise 4 — TBA
 - Begin final project
 
 ## Week 8
@@ -57,8 +57,8 @@
 ## Week 9
 
 - _Due_ — Final project (revised concept, rough plan)
-- Workshop 5 — Advanced CSS (Topics)
-- Exercise 5 — TBA
+- Workshop 5 — Advanced JS
+- Exercise 5 — TBA
 - Crit final projects
 
 ## Week 10
@@ -73,5 +73,5 @@
 
 ## Week 12
 
-- _Due_ — Final project
+- _Due_ — Final project (final)
 - Crit final projects
