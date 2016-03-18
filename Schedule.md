@@ -26,7 +26,7 @@
 - _Due_ — Project 2 (complete draft) and Exercise 2
 - Crit Project 2
 
-## ☞ Week 5
+## Week 5
 
 - _Due_ — Project 2 (final)
 - Crit Project 2
@@ -34,7 +34,7 @@
 - [Exercise 3 — Visual composition](Exercise3.md)
 - Begin [Project 3](Project3.md)
 
-## Week 6
+## ▶ Week 6
 
 - _Due_ — Project 3 (complete draft) and Exercise 3
 - Crit Project 3
