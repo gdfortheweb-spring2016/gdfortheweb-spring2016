@@ -6,7 +6,7 @@ Spring 2016, GRAPH-3237-01
 Thu 1:10-6:10pm (Design Center, Room 601)
 
 Andrew LeClair  
-[aleclair@alumni.risd.edu](aleclair@alumni.risd.edu)
+[aleclair@alumni.risd.edu](mailto:aleclair@alumni.risd.edu)
 
 # Overview
 
