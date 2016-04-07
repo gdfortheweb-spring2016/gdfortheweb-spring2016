@@ -45,33 +45,32 @@
 
 - _Due_ — Project 3 (final)
 - Crit Project 3
-- Workshop 4 — Advanced CSS
-- Exercise 4 — TBA
-- Begin final project
+- [Workshop 4 — CMS](Workshop4.md)
+- [Exercise 4 — Collection](Exercise4.md)
+- Begin [Project 4](Project4.md)
 
 ## Week 8
 
-- _Due_ — Final project (rough concepts) and Exercise 4
+- _Due_ — Project 4 (idea, sketches, and rough plan) and Exercise 4
 - Crit final projects
 
 ## Week 9
 
-- _Due_ — Final project (revised concept, rough plan)
+- _Due_ — Project 4 (revised design and plan, working version)
 - Workshop 5 — Advanced JS
 - Exercise 5 — TBA
-- Crit final projects
+- Crit Project 4
 
 ## Week 10
 
-- _Due_ — Final project (revised plan, rough build) and Exercise 5
-- Crit final projects
+- _Due_ — Project 4 (revised version) and Exercise 5
+- Crit Project 4
 
 ## Week 11
 
-- _Due_ — Final project (revised build)
-- Crit final projects
+- _Due_ — Project 4 (revised version)
+- Crit Project 4
 
 ## Week 12
 
-- _Due_ — Final project (final)
-- Crit final projects
+- Final crit
