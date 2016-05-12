@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    background: #fffef2;
+  font-family: arial;
+  font-weight: 100;
+}
+
+h1 {
+  color: #black;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+p {
+  color: #black;
+  font-weight: 100;
+  font-size: 85px;
+  margin: 40px 0px 20px;
+  
+}
+
+p.width {
+    height: 230px;
+    width: 660px;
+    line-height: 160%;
+    letter-spacing: .5px;
+}
+
+#clockdiv {
+    font-family: arial;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 70px;
+}
+
+#clockdiv > div{
+    padding: 50px;
+    border-radius: 3px;
+    background: #808080;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 60px;
+    border-radius: 3px;
+    background: #000000;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+#poem div > span{
+    font-size: 30px;
+    color: #fff;
+    padding: 100px;
+    border-radius: 3px;
+    background: #808080;
+    display: inline-block;
+
+}
+
+
+/* span.dropt {border-bottom: thin dotted; background: #ffeedd;}
+span.dropt:hover {text-decoration: none; background: #ffffff; z-index: 6; }
+span.dropt span {position: absolute; left: -9999px;
+  margin: 20px 0 0 0px; padding: 3px 3px 3px 3px;
+  border-style:solid; border-color:black; border-width:1px; z-index: 6;}
+span.dropt:hover span {left: 2%; background: #ffffff;} 
+span.dropt span {position: absolute; left: -9999px;
+  margin: 4px 0 0 0px; padding: 3px 3px 3px 3px; 
+  border-style:solid; border-color:black; border-width:1px;}
+  */
+span.dropt:hover span {margin: 20px 0 0 170px; background: #ffffff; z-index:6;} 

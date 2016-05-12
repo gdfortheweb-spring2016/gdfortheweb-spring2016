@@ -1,0 +1,228 @@
+
+body {
+	margin:0;
+	padding:0;
+	font-family: worksans-regular;
+}
+
+
+h3 {
+	font-family: worksans-regular;
+	text-decoration: overline;
+	text-align:center;
+}
+
+h5 {
+	font-family: worksans-regular;
+	text-align:center;
+}
+
+@font-face{ 
+	font-family: 'WorkSans';
+	src: url('webfonts/woff/WorkSans-Regular.woff') format('woff'),
+		 url('webfonts/woff2/WorkSans-Regular.woff2') format('woff2'),
+	     url('webfonts/ttf/WorkSans-Regular.ttf') format('truetype'),
+
+}
+
+.circle-container {
+    position: relative;
+    width: 24em;
+    height: 24em;
+    padding: 2.8em;
+    /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+    border: dashed 1px;
+    border-radius: 50%;
+    margin: 1.75em auto 0;
+}
+.circle-container a {
+    display: block;
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 4em; height: 4em;
+    margin: -2em;
+}
+.circle-container img { display: block; width: 100%; }
+.deg0 { transform: translate(12em); } /* 12em = half the width of the wrapper */
+.deg45 { transform: rotate(45deg) translate(12em) rotate(-45deg); }
+.deg135 { transform: rotate(135deg) translate(12em) rotate(-135deg); }
+.deg180 { transform: translate(-12em); }
+.deg225 { transform: rotate(225deg) translate(12em) rotate(-225deg); }
+.deg315 { transform: rotate(315deg) translate(12em) rotate(-315deg); }
+
+.center {
+    margin: auto;
+}
+
+span.rollover {
+	opacity: .5;
+	-o-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-webkit-transition: -webkit-transform 1s;
+	background:url(images/mag.png) center center no-repeat #000;
+	cursor: pointer;
+	height: 150px;
+	width: 347px;
+	position: absolute;
+	z-index: 10;
+	opacity: 0;
+}
+
+span.rollover:hover {
+	opacity: .7;
+	-o-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-webkit-transition: -webkit-transform 1s;
+	-webkit-box-shadow: 0px 0px 4px #000;
+	-moz-box-shadow: 0px 0px 4px #000;
+	box-shadow: 0px 0px 4px #000;
+}
+
+.text {
+	border-radius: 25px;
+	background: #ffffff;
+	padding:20px;
+	width: relative;
+	height: 150px;
+}
+
+.container {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.pageBackground {
+position: relative;
+}
+
+.pageBackground img {
+width: 100%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size:cover;
+}
+
+.button {
+    background-color: #bbb;
+    display: block;
+    margin: 20px 0;
+    padding: 20px;
+    width: 100%;
+}
+
+.rcorners1 {
+	border-radius: 25px;
+	background: #f3bfbf;
+	padding: 0px;
+	width: relative;
+	height: 150px;
+}
+
+
+p {
+	font-family: worksans-regular;
+	font-size:11pt;
+}
+
+p.width {
+    height: 230px;
+    width: 600px;
+    line-height: 160%;
+    letter-spacing: .5px;
+}
+
+.head {
+	font-size: 19pt;
+
+}
+
+
+
+#header h1,
+#header h2,
+#header p {
+	margin-left:2%;
+	padding-right:2%;
+}
+#active2 #tab2,
+#active3 #tab3,
+#active4 #tab4,
+#active5 #tab5 {
+	font-weight:bold;
+	text-decoration:none;
+	color:#000;
+}
+#footer {
+	clear:both;
+	float:left;
+	width:100%;
+}
+#footer p {
+	margin-left:2%;
+	padding-right:2%;
+}
+
+/* Start of Column CSS */
+#container4 {
+	clear:left;
+	float:left;
+	width:100%;
+	overflow:hidden;
+	background:#4c4c4c; /* column 4 background colour */
+}
+#container3 {
+	clear:left;
+	float:left;
+	width:100%;
+	position:relative;
+	right:25%;
+	background:#4c4c4c; /* column 3 background colour */
+}
+#container2 {
+	clear:left;
+	float:left;
+	width:100%;
+	position:relative;
+	right:25%;
+	background:#4c4c4c; /* column 2 background colour */
+}
+#container1 {
+	float:left;
+	width:100%;
+	position:relative;
+	right:25%;
+	background:#4c4c4c; /* column 1 background colour */
+}
+#col1 {
+	float:left;
+	width:21%;
+	position:relative;
+	left:77%;
+	overflow:hidden;
+}
+#col2 {
+	float:left;
+	width:21%;
+	position:relative;
+	left:81%;
+	overflow:hidden;
+}
+#col3 {
+	float:left;
+	width:21%;
+	position:relative;
+	left:85%;
+	overflow:hidden;
+}
+#col4 {
+	float:left;
+	width:21%;
+	position:relative;
+	left:89%;
+	overflow:hidden;
+}
+
+   

@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+
+    <style>
+      span[choices] { color: red; }
+    </style>
+  </head>
+  <body style="margin: 64px">
+    <center>
+      <h2>A
+        <span choices="Brief Short Pithy Profound">?</span>
+        <span choices="Nautical Sailors Sea Ocean">?</span>
+        Visiting Designer: Jürg Lehni
+      </h2>
+      <p>The
+        <span choices="big small old warm stormy">?</span>
+        <span choices="sailor sea wind lad girl">?</span>
+        <span choices="swiftly quietly carefully">?</span>
+        <span choices="pulls pursues becomes">?</span>
+        the
+        <span choices="mast ship shark reef fish">?</span>.
+      </p>
+    </center>
+    <script src="jquery.js"></script>
+    <script>
+      function choose(element) {
+        var list = $(element).attr('choices').split(' ');
+        var n = Math.floor(Math.random() * list.length);
+        $(element).html(list[n]);
+      }
+      $('span[choices]').each(function() {
+        choose(this);
+      });
+      setInterval(function() {
+        var slots = $('span[choices]');
+        var n = Math.floor(Math.random() * slots.length);
+        choose(slots[n]);
+      }, 1000);
+    </script>
+  </body>
+</html>
+​

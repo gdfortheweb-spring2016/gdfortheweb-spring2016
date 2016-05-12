@@ -1,0 +1,17 @@
+div#one{
+	display:none;
+	width: 200px;
+	left: 400px;
+	top: 400px;
+	position: absolute;
+}
+
+a:hover + div {
+	display: block;
+}
+div#error_message{
+  width: 200px;
+  left: 400px;
+  top: 400px;
+  position: absolute;
+}

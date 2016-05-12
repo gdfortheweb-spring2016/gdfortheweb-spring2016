@@ -1,0 +1,234 @@
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color:yellow; }
+a:hover, a:active { text-decoration: none; color:black }
+
+.image { 
+   position: relative; 
+   width: 100%; 
+}
+
+h2 { 
+   position: absolute; 
+   top: 300px; 
+   left: 0; 
+   width: 100%; 
+}
+
+h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+
+.wraptocenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 20%;
+  height: 20%;
+}
+.wraptocenter * {
+  vertical-align: middle;
+}
+
+.button--go {
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  background: #F6F6F6;
+  border: 2px solid #000;
+  padding: 8px;
+  color: #000;
+  position: absolute; 
+  width: 100%;
+   }
+
+.button--go:focus {
+    color: #222; }
+.button--go:hover {
+    background: #F6F6F6;
+    border-color: #2CD892;
+    color: #2CD892; }
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family:verdana;
+  font-weight: bold;
+  background-color: #F6F6F6;
+}
+
+h1 {
+  font-family: timesnewroman;
+  text-align: center;
+  }
+
+h2 {
+	font-family: bariol-regular;
+  font-size: 48px;
+	text-align: center;
+  color: orange;
+}
+
+.color {
+	color: red;
+}
+
+@font-face {
+	font-family: 'WorkSans';
+	src: url('webfonts/woff/WorkSans-Regular.woff') format('woff'),
+		 url('webfonts/woff2/WorkSans-Regular.woff2') format('woff'),
+		 url('webfonts/ttf/WorkSans-Regular.ttf') format('truetype'),
+	}
+
+p {
+	font-family: abel-regular;
+	/* text-decoration: overline; */
+	text-align: center;
+	font-size: 11pt;
+}
+
+.answers {
+  font-family: abel-regular;
+  text-align: center;
+  font-size: 11pt;
+}
+
+p.width {
+	height: 230px;
+	width: 600px;
+	line-height: 160%;
+	letter-spacing: .5px;
+}
+
+form {
+	text-align: center;
+}
+
+.error {color: #FF0000;}
+
+.center {
+	display: block;
+	margin: 0 auto;
+}
+
+section {
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+.answers li {
+  list-style:upper-alpha;
+}
+
+.label {
+  color: black;
+  border: 2px;
+  cursor:pointer;
+  margin-top: 45vh;
+}
+
+.submission {
+  padding: 15px;
+
+}
+
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace.pace-inactive .pace-progress {
+  display: none;
+}
+
+.pace .pace-progress {
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 0;
+  height: 5rem;
+  width: 5rem;
+
+  -webkit-transform: translate3d(0, 0, 0) !important;
+  -ms-transform: translate3d(0, 0, 0) !important;
+  transform: translate3d(0, 0, 0) !important;
+}
+
+.pace .pace-progress:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: .5rem;
+  content: attr(data-progress-text);
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  font-size: 5rem;
+  line-height: 1;
+  text-align: right;
+  color: rgba(100, 219, 32, 0.19999999999999996);
+}
+
+#progress {
+	position: relative;
+	width: 100%;
+	height:30px;
+	background-color:#ddd;
+}
+
+#bar {
+	position: absolute;
+	width: 10%;
+	height: 100%;
+	background-color: red;
+}
+
+#percentage {
+	text-align:center;
+	line-height: 30px;
+	color: white;
+}
+
+
+#overlay {
+  position: absolute; 
+  top: 100px; 
+  color: #FFF; 
+  text-align: center;
+  font-family: "V5 Prophit";
+  font-size: 20px;
+  background-color: rgba(221, 221, 221, 0.3);
+  width: 640px;
+  padding: 10px 0;
+  z-index: 2147483647;
+}
+
+#overlay2 {
+  position: absolute; 
+  bottom: 100px; 
+  color: #FFF; 
+  text-align: center;
+  font-family: "V5 Prophit";
+  font-size: 20px;
+  background-color: rgba(221, 221, 221, 0.3);
+  width: 640px;
+  padding: 10px 0;
+  z-index: 2147483647;
+}
+
+#v {
+  z-index: 1;
+}
+

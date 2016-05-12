@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<form>
+		<div class="label">Do you occasionally travel between different countries?</div>
+		<input id="q7" class="submission" type="text" name="q7a" size="17" maxlength="17" style="color:#888;" value="Enter: yes/no/maybe" onfocus="inputFocus(this)" onblur="inputBlur(this)"/>
+		<input id="submit" type="button" onclick="location.href='http://janedahye.github.io/gdfortheweb-spring2016-jane/project7/question8.html';" value="next"></td>
+	</form>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="js.cookie.js"></script>
+<script type="text/javascript">
+
+	$(function() {
+
+			// code goes here
+			$("#button").click(function(e) {
+				e.preventDefault();
+
+				var name = $("#q7").val();
+				Cookies.set("q7", q7);
+			});
+
+		});
+
+	function inputFocus(i) {
+		if(i.value==i.defaultValue{ i.value=""; i.style.color="#000"; }
+	}
+	function inputBlur(i) {
+		if(i.value==""{ i.value=i.defaultValue; i.style.color="#888"}
+	}
+</script>
+
+
+</body>
+</html>
+
+

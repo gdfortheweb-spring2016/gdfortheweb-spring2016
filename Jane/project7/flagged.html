@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<!--
+<body onload="move ()">
+-->
+<body>
+<video id="end" width="100%" height="100%" src="http://janedahye.github.io/gdfortheweb-spring2016-jane/project7/End.mov" autoplay>
+ </video>
+
+ <div id="overlay">FLAGGED.FLAGGED.FLAGGED.FLAGGED.FLAGGED </div>
+  <div id="overlay2">YOU ARE NOW BEING FOLLOWED </div>
+
+<!--
+<div id="progress">
+	<div id="bar">
+		<div id="percentage"></div>
+	</div>
+</div>
+
+
+
+
+	<br><br>
+	<h1> You are considered <span class="color"> highly </span> dangerous.</h1>
+	<br>
+	<h1> Thank you. We are sending your data to the NSA now. </h1>
+	
+	<br>
+	<a href="http://janedahye.github.io/gdfortheweb-spring2016-jane/project7/eye.html"> <img src="eye.png" alt="eye" class="center"/>
+	</a>
+
+
+
+</body>
+<script>
+	function move () {
+		var elem = document.getElementById("bar");
+		var width = 10;
+		var id = setInterval(frame, 10);
+		function frame () {
+			if (width >= 100) {
+				clearInterval (id);
+			} else {
+				width++;
+				elem.style.width = width + '%';
+				document.getElementById("label").innerHTML = width * 1 + '%';
+			}
+		}
+	}
+</script>
+<script type="text/javascript" src="main.js"></script>
+	
+-->
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>

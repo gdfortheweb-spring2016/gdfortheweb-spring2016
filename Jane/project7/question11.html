@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<form>
+	<div class="label">Have you ever received a citation for 'resisting or obstructing' an officer?</div>
+	<input id="q11" class="submission" type="text" name="q11a" size="17" maxlength="17" style="color:#888;" value="Enter: yes/no/maybe" onfocus="inputFocus(this)" onblur="inputBlur(this)"/>
+	<input id="submit" type="button" onclick="location.href='http://janedahye.github.io/gdfortheweb-spring2016-jane/project7/question12.html';" value="next"></td>
+ 	
+	</form>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+	<script type="text/javascript" src="js.cookie.js"></script>
+	<script type="text/javascript">
+
+		$(function() {
+
+			// code goes here
+			$("#button").click(function(e) {
+				e.preventDefault();
+
+				var name = $("#q11").val();
+				Cookies.set("q11", q11);
+			});
+
+		});
+		function inputFocus(i) {
+		if(i.value==i.defaultValue{ i.value=""; i.style.color="#000"; }
+		}
+		function inputBlur(i) {
+		if(i.value==""{ i.value=i.defaultValue; i.style.color="#888"}
+		}
+</script>
+
+	
+</body>
+</html>
+
+
+  

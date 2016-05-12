@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form>
+	<div class="label">What is your email?</div>
+	<input id="email" type="text" name="email" size="15" maxlength="30">
+	<input id="submit" type="button" onclick="location.href='http://janedahye.github.io/gdfortheweb-spring2016-jane/project7/question1.html';" value="submit"></td>
+</form>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="js.cookie.js"></script>
+<script type="text/javascript">
+
+	$(function() {
+
+		// code goes here
+		$("#button").click(function(e) {
+			e.preventDefault();
+
+			var name = $("#email").val();
+			Cookies.set('email', email);
+		});
+
+	});
+
+</script>
+
+</body>
+</html>

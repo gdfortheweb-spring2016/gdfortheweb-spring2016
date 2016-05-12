@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form>
+	<div class="label">What is your first name?</div>
+	<input id="name" type="text" name="name" size="15" maxlength="30">
+	<input id="submit" type="button" onclick="location.href='http://janedahye.github.io/gdfortheweb-spring2016-jane/project7/lastname.html';" value="submit"></td>
+</form>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="js.cookie.js"></script>
+<script type="text/javascript">
+
+	$(function() {
+
+		// code goes here
+		$("#button").click(function(e) {
+			e.preventDefault();
+
+			var name = $("#name").val();
+			Cookies.set("name", name);
+		});
+
+	});
+
+</script>
+
+
+
+<!--
+<script type="text/javascript">
+	$(function() {
+
+		// code goes here
+		$("#button").click(function(e) {
+			e.preventDefault();
+
+	function setCookie (name) {
+		document.cookie= name; 
+	}
+</script>
+-->
+</body>
+</html>

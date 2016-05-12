@@ -1,0 +1,13 @@
+div {
+	width:250px;
+	height:250px;
+	/*display: inline-block;*/
+	border-radius: 10%;
+	background-color: none;
+	font-family: arial;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+#locatior {position: absolute; visibility: visible; right: 200px; top: 300px; z-index: 200; } 
+

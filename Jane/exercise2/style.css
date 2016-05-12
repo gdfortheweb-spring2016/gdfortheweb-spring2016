@@ -1,0 +1,36 @@
+body {
+	background-color: white;
+	color: black;
+	background-image: url("bg.jpg");
+	font-size: 16px;
+
+}
+
+
+
+h1 {
+	color: blue;
+}
+
+h1:hover {
+	background-color: yellow;
+}
+
+p {
+	font-family: helvetica;
+}
+
+.no-indent {
+	text-indent: 0px;
+}
+
+.intro {
+	font-family:arial black; 
+}
+
+.jw {
+	color: black;
+}
+
+
+
