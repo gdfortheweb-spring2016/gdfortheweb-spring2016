@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<title>Yemen Under Drones</title>
+<meta charset="utf-8">
+
+<head>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="main.js"></script>
+    <script src="canvasjs.min.js"></script>
+
+
+</head>
+
+<body id="body">
+    <div id="header"></div>
+
+    <!--THIS IS THE LEFT COLUMN-->
+    <div class="panel panel-left">
+        <img id="plus" src="plus.png" onclick="showColumn()">
+
+        <div id="info">
+            <p>The first known U.S. drone strike outside of Afghanistan hit Yemen in 2002, killing <b>six</b> people.
+                <p>
+                    <h1 class="stats number1">6</h1>
+
+                    <p>In <b>2011</b>, the U.S. carried out its second reported attack in Yemen after a pause of nearly a decade.</p>
+                    <h1 class="stats number2">2011</h1>
+
+                    <p>Since then, the U.S. has carried out over <b>130</b> drones strikes in the country</p>
+                    <h1 class="stats number3">130</h1>
+        </div>
+        
+        <div class="description one">
+            <p>Drone strikes have fallen on several provinces and cities throughout Yemen. From the first strike in 2002, which was launched in Marib to the most recent drone strike on April 26, 2016 in Abyan. </p>
+        </div>
+
+        <h1 class="animated infinite fadeIn real">"The real advantage of unmanned aerial systems is that they allow you to project power without projecting vulnerability."</h1>
+
+        <div class="description two">
+            <p>Over the past decade, more than 750 people have been killed by unmanned aerial systems in Yemen alone. That number is even higher for countries like Pakistan, where an estimated 4,000 people have been killed since 2004.</p>
+        </div>
+
+        <h1 class="animated infinite fadeIn the"> “The question of sovereignty now assumes an aeropolitical dimension: <em>who is it that holds the power over the air and over the airwaves as well?"</em></h1>
+
+        <div class="description three">
+            <p>The U.S. has launched hundreds of drone strikes in Yemen over the past six years. In 2012, the deadliest year for drone warfare in Yemen, over 50 drone strikes were launched––killing over 240 people and injuring a hundred others.</p>
+        </div>
+
+        <h1 class="animated infinite fadeIn however">“However, the ‘kill list’ never gets shorter, the names and faces are simply replaced. Caught up in an endless spiral, the eradication strategy is, paradoxically, destined never to eradicate."</h1>
+
+        <div class="description four">
+            <p>On December 12, 2014, an American drone mistakenly targeted a wedding convoy in al-Baydha province in Yemen. An estimated 14 people were killed and 22 others were injured. All those that were killed in the strike were supportive of the Yemeni government's anti-terror campaigns.</p>
+        </div>
+
+        <h1 class="animated infinite fadeIn psych">  “The psychological effect of this unequal killing is mitigated by the fact that there exists a long-standing tradition of fighting peoples militarily and ethnically inferior in which it is proper that the latter die in much greater numbers.”</h1>
+
+        <h1 class="animated infinite fadeIn once"> “Once the remotely controlled machine becomes a weapon of war, it is the enemy who is treated as a dangerous material...Asymmetrical warfare becomes radicalized, unilateral. Of course people would still die, but only on one side.” </h1>
+    </div>
+
+
+
+    <!--THIS IS THE RIGHT COLUMN-->
+
+    <div class="panel panel-right">
+        <img onclick="hideColumn()" id="minus" src="minus.png">
+
+        <div id="div-image-1">
+            <img id="quote-image-1" onload="this.style.opacity='1';" src="picture2011.jpg">
+            <figcaption>The rubble of a building that was destroyed in Yemen by a drone strike in 2011 against Qaeda militants, one of the many drone strikes launched in the country during that year.</figcaption>
+        </div>
+
+        <p id="quote-1"><em>"Our villages are poor. No education, no hospitals, no roads, nor any services. Of all the progress and advances in the world, only these deadly missiles reached us." </em><strong>Mohammed Nasser al-Jarrah</strong></p>
+
+        <h1 id=strikes-by-province-heading>Number of Strikes (2015-2016) by Province</h1>
+        <img id="strikes-by-province" src="strikesnumbers.png">
+
+        <img id="quote-image-2" onload="this.style.opacity='1';" src="picture13.jpg">
+        <p id=quote-text-2><a href="http://mic.com/articles/89135/8-stories-of-civilians-killed-by-u-s-drone-strikes-in-yemen#.AXezfJWik">Abdulaziz</a> was in the wrong place at the wrong time. The 10-year-old was killed in a strike in June 2013 in al-Jawf. Already in the 7th grade, he was bright for his age. The school certificate his father proudly held up showed that he had excelled in his Quran and Arabic language exams that year. He passed his English class, too.</p>
+
+        <img id="drone-flicker" src="droneflicker.gif">
+
+
+        <h1 id=strikes-by-year-heading>Total Number of Strikes (2011-2016)</h1>
+
+        <div id="chartContainer" onload="casualtiesData()">
+        </div>
+
+        <iframe id="quote-vid" width="480" height="315" src="https://www.youtube.com/embed/fcosZEN6e54">
+        </iframe>
+
+        <p id="quote-2"><em>"We were in a wedding, but all of a sudden it became a funeral. We have nothing, not even tractors or other machinery. We work with our hands. Why did the United States do this to us?" </em>
+            <br><strong>Abdullah Mabkhut al-Amri</strong></p>
+
+        <img id="people-flicker" src="people-drone.gif">
+
+        <img id="quote-image-3" onload="this.style.opacity='1';" src="picture14.jpg">
+        <p id="quote-text-3"><a href="http://mic.com/articles/89135/8-stories-of-civilians-killed-by-u-s-drone-strikes-in-yemen#.AXezfJWik">Aref</a>, 30, and married with seven children, was out celebrating a wedding last December when he was killed. Wedding convoys are a tradition in Yemen called a zafa, and around 11 vehicles were taking the bride and groom back to the groom's village, Jishm. Four missiles fired from a drone hovering above the convoy killed Aref, along with 11 others.</p>
+ <div id="chart" onload="strikesData()">
+        </div>
+        <!--
+        <img id="strikes-gif" src="drone-strikes.gif">
+        <div id="strikes-stats">
+            <h1>136 Drone Strikes as of May 6, 2016</h1></div>
+
+    </div>
+-->
+    </div>
+</body>
+
+</html>
+        
+        
+        
+        
+        
+        
+        
+    
+
+ 
+ 
+
+
+
+    
+
+
+
+
+
+
+
