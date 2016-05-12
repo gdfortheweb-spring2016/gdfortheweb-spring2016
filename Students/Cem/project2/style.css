@@ -1,0 +1,112 @@
+html{
+    cursor: cell;
+}
+body {
+    font-family: arial;
+    letter-spacing: 0.09vw;
+    word-spacing: -0.02vw;
+    line-height: 4vw;
+    font-size: 3vw;
+    font-weight: bold;
+    color: blue;
+    margin-left: 2em;
+    background-color: floralwhite;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility !important;
+    margin-right: 1em;
+    animation-name: color;
+    animation-duration: 180s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+p {
+	margin: 0;
+    margin-left: 1em;
+    text-indent: -2em;
+    mix-blend-mode: multiply;
+}
+
+.first {
+	text-indent: 0;
+}
+
+.title {
+	text-indent: 2em;
+	margin-top: 30vw;
+}
+
+div {
+    margin: 0;
+    position: fixed;
+    left: -2.3em;
+    top: 11em;
+    font-size: 1.3vw;
+}
+
+.last{
+	font-size: 1.3vw;
+    text-indent: 7em;
+    margin-top: 3vw;
+}
+
+nav {
+	position: fixed;
+	top: 1em;
+	text-indent: 0em;
+	color: red;
+	z-index: -1;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 2.4em;
+    font-size: 1.3vw;
+    height: 2.2em;
+}
+a {
+	text-decoration: none;
+	color: red;
+}
+
+.zfix {
+	z-index: 2;
+}
+
+a:hover {
+	border-bottom: 1px red dashed;
+	cursor: crosshair;
+}
+
+span {
+	color: blue;
+	border-bottom: 1px solid red;
+}
+
+.home a:hover {
+	background-color: yellow;
+	border-bottom: none;
+	cursor: w-resize;
+
+}
+.home {
+	border: none;
+}
+
+.here {
+	color: transparent;
+    border: none;
+}
+
+.fix{
+    position: fixed;
+    top: 1em;
+    left:3em;
+    font-size: 1.3vw;
+    height: 2.2em;
+}
+
+@keyframes color {
+    0% {background-color: white;}
+    100% {background-color: yellow;}
+}

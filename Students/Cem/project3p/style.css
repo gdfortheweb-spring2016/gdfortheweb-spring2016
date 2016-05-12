@@ -1,0 +1,30 @@
+/*div {
+	color: black;
+	font-family: arial black;
+	font-size: 5vw;
+	float: left;
+}
+*/
+div {
+    font-family: arial;
+    /*letter-spacing: 0.09vw;
+    word-spacing: -0.02vw;
+    line-height: 4vw;*/
+    font-size: 15vw;
+    font-weight: bold;
+    color: red;
+    /*margin-left: 2em;*/
+    /*background-color: floralwhite;*/
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility !important;
+    /*float: left;*/
+}
+
+div:hover {
+
+}
+
+img {
+
+	height: 2.3vw;
+}

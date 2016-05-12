@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 800 600" enable-background="new 0 0 800 600" xml:space="preserve">
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="800" height="600"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_2_)">
+		<path d="M400,300v-693.1c45.4,0,90.7,4.5,135.2,13.3L400,300z"/>
+		<path d="M400,300l265.2-640.3c41.9,17.4,82.1,38.8,119.8,64L400,300z"/>
+		<path d="M400,300l490.1-490.1c32.1,32.1,61,67.3,86.2,105L400,300z"/>
+		<path d="M400,300l640.3-265.2c17.4,41.9,30.6,85.5,39.4,130L400,300z"/>
+		<path d="M400,300h693.1c0,45.4-4.5,90.7-13.3,135.2L400,300z"/>
+		<path d="M400,300l640.3,265.2c-17.4,41.9-38.8,82.1-64,119.8L400,300z"/>
+		<path d="M400,300l490.1,490.1c-32.1,32.1-67.3,61-105,86.2L400,300z"/>
+		<path d="M400,300l265.2,640.3c-41.9,17.4-85.5,30.6-130,39.4L400,300z"/>
+		<path d="M400,300v693.1c-45.4,0-90.7-4.5-135.2-13.3L400,300z"/>
+		<path d="M400,300L134.8,940.3c-41.9-17.4-82.1-38.8-119.8-64L400,300z"/>
+		<path d="M400,300L-90.1,790.1c-32.1-32.1-61-67.3-86.2-105L400,300z"/>
+		<path d="M400,300l-640.3,265.2c-17.4-41.9-30.6-85.5-39.4-130L400,300z"/>
+		<path d="M400,300h-693.1c0-45.4,4.5-90.7,13.3-135.2L400,300z"/>
+		<path d="M400,300L-240.3,34.8c17.4-41.9,38.8-82.1,64-119.8L400,300z"/>
+		<path d="M400,300L-90.1-190.1c32.1-32.1,67.3-61,105-86.2L400,300z"/>
+		<path d="M400,300L134.8-340.3c41.9-17.4,85.5-30.6,130-39.4L400,300z"/>
+	</g>
+</g>
+</svg>
