@@ -1,0 +1,30 @@
+.hovered {
+	font-size: 30px;
+}
+
+.clicked {
+	background-color: red;
+}
+
+.background {
+	background-color: yellow;
+}
+
+body {
+	background-color:grey;
+}
+
+div {
+	margin: 10px;
+	background-color: white;
+	width:20px;
+	height:20px;
+	float: left;
+	transform: rotate(7deg);
+}
+
+.hoverhover {
+	background-color: white;
+	width:10px;
+	height:10px;
+}

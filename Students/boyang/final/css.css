@@ -1,0 +1,28 @@
+.container {
+	height: 1000px;
+	width:900px;
+	}
+
+
+
+html { 
+  background: url(gifs/background_black.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+
+
+#link {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height: 100%;
+}
+
+
+.landingpage {
+	background-color: black;
+}

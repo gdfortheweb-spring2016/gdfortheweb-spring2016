@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>project 3</title>
+	<link rel="stylesheet" type="text/css" href="css.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+
+
+<body>
+
+
+		<div class="backgroundimg">
+<!-- 			<img src="images/04.jpg"> -->
+		</div>
+
+
+		<div class="container">
+
+			<div class="box redbox"></div>
+
+			<div class="box greenbox"></div>
+
+			<div style="clear:both"></div>
+
+			<div class="box bluebox"></div>
+
+			<div class="box yellowbox"></div>
+
+			<div style="clear:both"></div>
+		</div>
+
+
+		<div class="container02">
+
+			<div class="box redbox02"></div>
+
+			<div class="box greenbox02"></div>
+
+			<div style="clear:both"></div>
+
+			<div class="box bluebox02"></div>
+
+			<div class="box yellowbox02"></div>
+
+			<div style="clear:both"></div>
+		</div>
+
+
+		<div class="container03">
+
+			<div class="box redbox03"></div>
+
+			<div class="box greenbox03"></div>
+
+			<div style="clear:both"></div>
+
+			<div class="box bluebox03"></div>
+
+			<div class="box yellowbox03"></div>
+
+			<div style="clear:both"></div>
+		</div>
+
+
+		<div class="container04">
+
+			<div class="box redbox04"></div>
+
+			<div class="box greenbox04"></div>
+
+			<div style="clear:both"></div>
+
+			<div class="box bluebox04"></div>
+
+			<div class="box yellowbox04"></div>
+
+			<div style="clear:both"></div>
+		</div>
+
+
+		<div class="container05">
+		<a href="http://practise.co.uk/about/index.html" target="_blank"><div id="link01"></div></a>
+		</div>
+
+
+		<div class="scroll"></div>
+
+	
+
+	<script src="jquery.js"></script>
+
+	<script>
+		$(window).scroll(function(){
+			console.log($(this).scrollTop());
+
+			if($(this).scrollTop()>=10){
+				$('.redbox').addClass('animate');
+				$('.greenbox').addClass('animate');
+
+			}else{
+				$('.redbox').removeClass('animate');
+				$('.greenbox').removeClass('animate');
+			}
+
+			if($(this).scrollTop()>=50){
+				$('.bluebox').addClass('animate');
+				$('.yellowbox').addClass('animate');
+
+			}else{
+				$('.bluebox').removeClass('animate');
+				$('.yellowbox').removeClass('animate');
+			}
+
+
+
+			if($(this).scrollTop()>=1300){
+				$('.redbox02').addClass('animate02');
+				$('.greenbox02').addClass('animate02');
+
+			}else{
+				$('.redbox02').removeClass('animate02');
+				$('.greenbox02').removeClass('animate02');
+			}
+
+			if($(this).scrollTop()>=1350){
+				$('.bluebox02').addClass('animate02');
+				$('.yellowbox02').addClass('animate02');
+
+			}else{
+				$('.bluebox02').removeClass('animate02');
+				$('.yellowbox02').removeClass('animate02');
+			}
+
+
+
+			if($(this).scrollTop()>=3000){
+				$('.redbox03').addClass('animate03');
+				$('.greenbox03').addClass('animate03');
+
+			}else{
+				$('.redbox03').removeClass('animate03');
+				$('.greenbox03').removeClass('animate03');
+			}
+
+
+			if($(this).scrollTop()>=3000){
+				$('.bluebox03').addClass('animate03');
+				$('.yellowbox03').addClass('animate03');
+
+			}else{
+				$('.bluebox03').removeClass('animate03');
+				$('.yellowbox03').removeClass('animate03');
+			}
+
+
+
+			if($(this).scrollTop()>=4500){
+				$('.redbox04').addClass('animate04');
+				$('.greenbox04').addClass('animate04');
+
+			}else{
+				$('.redbox04').removeClass('animate04');
+				$('.greenbox04').removeClass('animate04');
+			}
+
+
+			if($(this).scrollTop()>=4500){
+				$('.bluebox04').addClass('animate04');
+				$('.yellowbox04').addClass('animate04');
+
+			}else{
+				$('.bluebox04').removeClass('animate04');
+				$('.yellowbox04').removeClass('animate04');
+			}
+
+		});
+
+
+	 </script>
+
+	<script src="main.js"></script>
+
+</body>
+</html>

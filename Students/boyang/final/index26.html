@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>final project</title>
+    <link rel="stylesheet" type="text/css" href="css.css" >
+    <link href="https;//fonts.googleapis.com/css?family=PT+Serif:400,400italic" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+
+        <script language="javascript" type="text/javascript">
+        function popitup() {
+            var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
+            var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
+
+            var t = 300 + dualScreenTop;
+            var l = 600 + dualScreenLeft;
+
+            newwindow=window.open('index27.html','name26','height=660,width=500,top=' + t + ',left=' + l);
+            if (window.focus) {newwindow.focus()}
+            return false;
+        }
+        // window.onload = popitup('index16.html');
+
+         // setTimeout(popitup, 50);
+        </script>
+
+<style>
+html {
+  background: url(gifs/01.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    }
+ </style>
+
+
+</head>
+
+
+<body>
+
+ <a href="index11.html" onclick="return popitup('index11.html')" id="link"></a>
+
+
+
+<!-- <a href="index2.html"><img src="gifs/01.jpg"><a/> -->
+
+
+
+
+
+</body>

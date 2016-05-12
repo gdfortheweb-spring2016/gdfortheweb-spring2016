@@ -1,0 +1,25 @@
+.monospace {
+	font-family: monospace;
+	font-size: 200px;
+
+}
+
+
+.shape6 {
+  height:50px;
+  width:50px;
+  border-radius: 100%;
+  background-color: #000000;
+  margin-left: 10%
+
+}
+
+.shape7 {
+  height:100px;
+  width:100px;
+  border-radius: 30%;
+  background-color: #000000;
+  margin-left: 10%
+
+}
+
