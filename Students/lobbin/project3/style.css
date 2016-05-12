@@ -1,0 +1,48 @@
+body{background-color: black;
+	font-family: impact;
+	text-transform: lowercase;
+	text-align: right;
+}
+h1{
+
+	font-size: 80px;
+	position: fixed;
+	top:50px;
+	float: left;
+
+	
+}
+h3{
+	position: fixed;
+	top: 120px;
+	float: left;
+}
+
+h4{
+	font-size: 60px;
+	position: fixed;
+	top: 300px;
+	float: left;
+}
+div{
+	float: left;
+	border-width: 10px;
+	margin: 5px;
+
+}
+.fix{
+	float: left;
+	padding:10px;
+	background-color: yellow;
+	opacity: 30%;
+
+}
+
+.hovered{
+	
+	color:grey;
+
+}
+.width{
+	border width: 30px;
+}

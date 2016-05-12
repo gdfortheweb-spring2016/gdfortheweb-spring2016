@@ -1,0 +1,23 @@
+div{
+	float: left;
+	background-color: black;
+	width: 3px;
+	height: 3px;
+		
+}
+/*div.hover:{
+	background-color: white;
+	width: 11px;
+	height: 11px;*/
+
+.hovered{
+	background-color: white;
+	width:3px;
+	height: 3px;
+}
+
+.clicked{
+	background-color: rgb(0,0,0)
+	width: 10px;
+	height: 10px;
+}

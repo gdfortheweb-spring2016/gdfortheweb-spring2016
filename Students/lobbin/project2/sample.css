@@ -1,0 +1,82 @@
+1
+
+.right {
+	top: 50%;
+	right: 0%;
+	-webkit-transform: rotate(90deg);
+}
+
+.left {
+	top: 50%;
+	left: 0%;
+	-webkit-transform: rotate(-90deg);
+}
+
+2
+<body>
+	<div class="nav">
+		<a href="top.html" class="top">Text 1</a>
+		<a href="right.html" class="right">Text 2</a>
+		<a href="bottom.html" class="bottom">Text 3</a>
+		<a href="left.html" class="left">Text 4</a>
+	</div>
+
+
+3 
+html{
+font-size: 19px;
+}
+@media screen and (max-width: 800px){
+	html{
+		font-size:13px;
+	}
+}
+
+div{
+	width:80%
+	margin-left:10px;
+	padding: 20rem;
+	border-width: 10px;
+
+
+}
+
+4
+a:visited{
+
+}
+a:active{
+
+}
+<a href="#" class="hwhjbd">
+
+
+5
+body-a-h1-p
+
+
+6
+p.indent{ to show exceptions
+
+}
+
+7
+div{
+	position:absolute; (relative to webpage- moving)
+	/position: fixed; (to window-not moving)
+	position:relative;()
+
+}
+
+
+8
+div {transform: rotate (20deg)
+	/transform: skew/pespective/;
+
+}
+
+9
+.hajd:hover{
+	transition: all 0.1s ease;
+}
+

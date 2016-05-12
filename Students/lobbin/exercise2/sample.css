@@ -1,0 +1,30 @@
+
+body{
+	background-color: pink;
+	color: white;
+
+}
+
+h1{
+	color: violet;
+}
+h1:hover{
+	background-color: yellow;
+	color:blue;
+}
+
+
+.is-night h1{
+	color: white;
+}
+
+p{
+	text-indent: 60px;
+}
+
+.no-indent {
+	text-indent: 0px;
+}
+.sans{
+	font-family: sans-serif;
+}}

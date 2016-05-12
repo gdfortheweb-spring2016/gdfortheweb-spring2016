@@ -1,0 +1,43 @@
+body {
+	text-align: center;
+	background-color: pink;
+	color: white;
+	font-family: monospace;
+}
+p{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+p:hover {
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-shadow: 5px 5px 5px violet;
+}
+
+.p1{
+	box-sizing: 20px 50px white;
+	box-shadow: 10px 5px 50px white;
+
+}
+
+.p2{
+	border: 1px dashed red;
+}
+
+.column1{
+	text-align: right;
+	float: left;
+	width: 300px;
+	border-width: 60px;
+	border-color: purple;
+}
+
+.column2{
+	text-align: right;
+	float: right;
+	width: 300px;
+	border-width: 60px;
+	border-color: purple;
+}

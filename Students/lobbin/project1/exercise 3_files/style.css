@@ -1,0 +1,10 @@
+div{
+	float: left;
+	background-color: pink;
+	width: 11px;
+	height: 11px;
+		
+}
+.hover{
+	background-color: azure;
+}

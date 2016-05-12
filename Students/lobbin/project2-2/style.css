@@ -1,0 +1,89 @@
+body{
+	font-family: monospace;
+	background-color: teal;
+	color:teal;
+}
+
+.title{
+	color:yellow;
+}
+.title:hover{
+	color:teal;
+	text-decoration: none;
+}
+
+
+.box1{
+	width: 150px;
+	padding-left: 10px;
+	background-color: yellow;
+}
+
+.box2{
+	background-color: teal;
+	width:270px;
+	padding: 5px;
+	position:relative;
+	left:50%;
+	bottom:220px;
+	
+}
+
+.box3{
+	background-color:teal;
+	width:300px;
+	padding: 5px;
+	position:relative;
+	left:50%;
+	bottom:200px;
+}
+
+.marine{
+	color:yellow;
+	text-decoration: none;
+}
+.marine:hover{
+	color:white;
+}
+
+.text{
+	color:yellow;
+	text-align: right;
+	background-color: teal;
+}
+
+.lyric{
+
+	position:fixed;
+	top:70%;
+	left:26%;
+	padding: 5px;
+
+}
+
+.description{
+	width:300px;
+	position:fixed;
+	top:45%;
+	left:20%;
+	padding: 5px;
+}
+
+.fish{
+	text-decoration:none;
+	color:white;
+}
+.fish:hover{
+	color:yellow;
+}
+
+div.fixed{
+	position:fixed;
+	top: 70%;
+	left: 50%;
+	right:50%;
+
+}
+.burble:hover{
+	color:white;
+}

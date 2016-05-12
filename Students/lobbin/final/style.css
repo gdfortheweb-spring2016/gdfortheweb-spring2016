@@ -1,0 +1,33 @@
+body{
+	font-family: monospace;
+	background-size: 3000px 8000px;
+	background-color:rgba(122,235,252,0.7);
+	color:teal;
+}
+
+.someDiv{
+	width: 80px;
+	margin-top: 30px;
+	margin-left: 30px;
+
+}
+
+/*.box1{
+	width: 150px;
+	padding-left: 10px;
+	background-color: yellow;
+}*/
+
+/*.fixed{
+	position:fixed;
+	top: 70%;
+	left: 50%;
+	right:50%;
+
+}
+
+audio{
+	opacity: 0;
+}
+
+*/
