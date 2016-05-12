@@ -18,3 +18,6 @@
 * Setup project.txt to match selected metadata
 * Write simple home.php template
 * Write simple object.php template
+
+
+Visitor <-> Templates <-> Database <-> CMS <-> User

@@ -34,7 +34,7 @@
 - [Exercise 3 — Visual composition](Exercise3.md)
 - Begin [Project 3](Project3.md)
 
-## ☞ Week 6
+## Week 6
 
 - _Due_ — Project 3 (complete draft) and Exercise 3
 - Crit Project 3
@@ -51,14 +51,12 @@
 
 ## Week 8
 
-- _Due_ — Project 4 (idea, sketches, and rough plan) and Exercise 4
+- _Due_ — Project 4 (idea, sketches, and rough plan)
 - Crit final projects
 
-## Week 9
+## ☞ Week 9
 
 - _Due_ — Project 4 (revised design and plan, working version)
-- Workshop 5 — Advanced JS
-- Exercise 5 — TBA
 - Crit Project 4
 
 ## Week 10
