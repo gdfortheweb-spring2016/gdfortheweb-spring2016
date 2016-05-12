@@ -1,0 +1,103 @@
+body {	font-weight:400;
+	margin: 33px;
+	font-family: helvetica;
+	color:red;
+	line-height: 1.2;
+}
+
+h1 	{font-family: 'Montserrat', sans-serif;
+	font-size: 76px;
+	line-height:0.9;
+	text-align: center;
+	position: relative;
+	margin-bottom: -92px;
+	letter-spacing: -1px;}
+
+
+h2	{letter-spacing: -6px;
+	font-family: 'Montserrat', sans-serif;
+	font-size:232px;
+	color:red;
+	line-height:0.9;
+	margin-top: 295px;
+	margin-bottom:20px;}
+
+h3 	{font-size:21px;
+	float:left;
+	width:31%;
+	margin-left: 18px;
+	margin-bottom: 5px;}
+
+h6 {margin-left: 14px;
+	font-weight: 300;
+	font-size:12px;
+	float:left;
+	width:31%;
+	margin-left: 18px;
+	margin-top:0px;
+	margin-bottom: 10px;}
+
+h4 {height:125px;
+	width: 125px;
+	background-color: red;
+	border-radius:50%;
+	position:absolute;
+	margin:0;
+	padding:0;}
+
+
+.shape {
+	position: absolute;
+	top: 200px;
+}
+
+.is-down {
+	top: 20px;
+}
+
+.one {
+	left: 260px;
+	top: 228px;
+	height:130px;
+	width: 130px;
+	background-color: red;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 5;}
+
+
+.two {
+	left: 630px;
+	top: 228px;
+	height:130px;
+	width: 130px;
+	background-color: red;
+	border-radius:50%;
+	position:absolute;
+	z-index: 5;}
+
+.three {
+	left: 1000px;
+	top: 228px;
+	height:130px;
+	width: 130px;
+	background-color: red;
+	border-radius:50%;
+	position:absolute;
+	z-index: 5;}
+
+
+
+span {opacity:0;}
+
+img {left:78px;
+	top: 145px;
+	width: 1280px;
+	position: absolute;
+	z-index: -5;
+}
+
+footer {float:left;
+		height: 7%;
+		width:100%;
+		background-color: white;}

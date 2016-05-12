@@ -1,0 +1,51 @@
+
+body {
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-family: helvetica;
+	line-height: 1.2;
+	font-size: 36px;
+	font-weight: 400;
+	margin-bottom: 0px;
+	text-align: center;
+	width:48%;
+	float:left;
+}
+
+
+h4 {font-family: helvetica;
+	color:black;
+}
+
+
+h2 {color: black;
+	font-size: 128px;
+	font-weight: 400;
+	margin-bottom: -160px;
+}
+
+h3 {
+	width:20px;
+	float:left;
+	z-index: 0;
+	position: absolute;}
+
+h5 {height:10%;}
+
+a {text-decoration: none;}
+
+/* ------------------------------ 
+
+h2:hover{	-webkit-text-stroke: 1px black;
+	text-decoration: none;
+color: white;}*/
+
+/*
+h2:hover{	-webkit-text-stroke: 1px #bababa;
+		text-decoration: underline;
+color: white;}
+
+h3:hover{	-webkit-text-stroke: 1px #4155e1;
+	text-decoration: underline;
+color: white;}*/
