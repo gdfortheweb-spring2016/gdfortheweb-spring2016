@@ -1,0 +1,32 @@
+body {
+	background-color:gray;
+}
+
+div {
+	background-color: white;
+	float:left;
+	margin:5px;
+	width: 100px;
+	height: 100px;
+	border-radius:5px;
+	font-size:40px;
+	font-family:"Windsor MT std";
+	overflow:hidden;
+	text-align: center;
+}
+
+h1 {
+
+}
+
+.hovered {
+	background-color: red;
+	color:white;
+	overflow:hidden;
+}
+
+.clicked {
+	background-color:black;
+	color:white;
+	overflow: hidden;
+}

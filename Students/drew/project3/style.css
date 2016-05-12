@@ -1,0 +1,103 @@
+@font-face{
+	font-family:"terminal-grotesque_open";
+	src:url("fonts/terminal-grotesque_open.otf");
+}
+
+
+html {
+	cursor:grab;
+}
+
+body {
+	background-color:#F20077;
+	-webkit-animation: 45s all ease infinite;
+    -webkit-animation-name: background;
+}
+
+.hovered {
+	color:white;
+	overflow:hidden;
+}
+
+.clicked {
+	background-color:white;
+	color:white;
+	overflow: hidden;
+}
+
+.keetra {
+	color:yellow;
+	font-family: "terminal-grotesque_open", sans-serif;
+	/*background-color: #F20077;*/
+	font-size: 20vh;
+	text-align:center;
+	position:absolute;
+	z-index:1;
+	padding:50px;
+	line-height: 85px;
+	cursor:grab;
+	text-shadow: 1px 1px 1px blue, 0 0 1px yellow, 0 0 0.2em yellow;
+    color: white;
+
+}
+
+.confetti {
+	width:100px;
+	height:100px;
+	text-align: center;
+	color:white;
+	float:left;
+	font-family: arial, sans-serif;
+	z-index:2;
+
+}
+
+.lecture {
+	line-height: 85px;
+	display:none;
+	font-size:15vh;
+}
+
+
+.disable-selection {
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer */
+   -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+  -webkit-user-select: none; /* Chrome, Safari, and Opera */
+  -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+}
+
+.container {
+
+	height:1000px;
+
+}
+
+
+footer {
+	clear:both;
+	margin-left:100px;
+	margin-right:100px;
+	line-height: 25px;
+	padding:25px;
+	z-index: 1;
+	font-family: brown, sans-serif;
+	color:black;
+	background-color:yellow;
+	bottom:0;
+}
+
+#text {
+	display: none;
+	font-size:20px;
+	line-height: 35px;
+}
+
+@-webkit-keyframes background {
+	0% { background-color:#FF00BF; }
+	25% {background-color: #F4FA58;}
+	50% { background-color: #FF0000; }
+	75% { background-color: #2EFEF7; }
+	100% { background-color: #FF00BF; }
+
+

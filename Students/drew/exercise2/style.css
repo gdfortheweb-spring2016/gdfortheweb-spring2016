@@ -1,0 +1,56 @@
+h1 {
+	font-family: larish neue;
+	font-size: 300%;
+	line-height: 120%;
+	color:#2f2c27;
+	margin-right:15%;
+
+}
+
+.byline {
+	font-size:24px;
+	font-family: larish neue;
+}
+
+body {
+	margin:60px;
+	background-color: white;
+	font-family: georgia;
+	color:#858381;
+	line-height: 25px;
+	
+}
+
+p {
+	font-size: 15px;
+}
+
+.Pitchfork {
+
+	color: #2f2c27;
+	font-family: larish neue;
+	font-size: 17px;
+
+}
+
+.CM {
+
+	color:#c90707;
+	font-family: larish neue;
+	font-size: 17px;
+
+}
+
+.interview {
+	margin-left:100px;
+	margin-right: 200px;
+	margin-top: 80px;
+}
+
+
+
+@media (max-width: 900px) {
+  .interview {
+  	margin:10%;
+  }
+
