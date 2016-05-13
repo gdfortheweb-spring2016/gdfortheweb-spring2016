@@ -1,0 +1,36 @@
+body {
+	font-family: Times;
+	letter-spacing: -0.01em;
+}
+
+.container {
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+ul {
+	-webkit-column-count: 3;
+	column-count: 3;
+	list-style: none;
+	padding-top: 10%;
+}
+
+.title, .subtitle, .author {
+	margin: 0;
+	padding: 0;
+}
+
+.title {
+	font-size: 2em;
+}
+
+.subtitle {
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+.author {
+	padding-bottom: 1em;
+	font-size: 1.5em;
+}

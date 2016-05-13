@@ -1,0 +1,28 @@
+body {
+	font-family: Helvetica;
+	margin: 0;
+}
+
+div {
+/*	background: black;*/
+	width: 20%;
+	height: 50px;
+
+	font-size: 2em;
+/*	color: white;*/
+	text-align: center;
+	float: left;
+}
+
+/*div:nth-of-type(even) {
+	background: white;
+	color: black;
+}*/
+
+.skew {
+	transform: skew(0deg, 0deg);
+}
+
+.scale {
+	transform: scale(2, 0.5);
+}

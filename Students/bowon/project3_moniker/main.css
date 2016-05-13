@@ -1,0 +1,180 @@
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	font-family: 'Helvetica';
+	font-size: 1.25rem;
+	letter-spacing: 0.005em;
+}
+
+.container {
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.intro {
+	text-align: center;
+	width: 750px;
+	height: 100px;
+	font-size: 3em;
+	position: relative;
+	margin: 0 auto;
+	top: 45%;
+	cursor: pointer;
+}
+
+.luna-maurer, .studio-moniker, .time, 
+.date, .place, .description, .reset {
+	position: absolute;
+	margin: 0;
+	text-align: left;
+	display: none;
+}
+
+h1, h2, h3, h4, p {
+	margin: 0;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.luna-maurer {
+	z-index: 0;
+	background-color: rgba(0,255,0,0.75);
+	color: rgba(0,0,0,0.75);
+
+	width: 600px;
+	height: 150px;
+	font-size: 4em;
+	line-height: 1.8em;
+}
+
+.time {
+	z-index: 3;
+	width: 100px;
+	height: 50px;
+	font-size: 4em;
+	color: rgba(0,0,255,0.75);
+}
+
+.date {
+	z-index: 1;
+	width: 520px;
+	height: 200px;
+	font-size: 4em;
+	line-height: 1.2em;
+	color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,255,0.75);
+}
+
+.place {
+	z-index: 1;
+	background-color: rgba(255, 0, 0, 0.57);
+	color: rgba(0,0,0,0.5);
+	border-radius: 50%;
+	font-size: 4em;
+	text-align: center;
+
+	line-height: 400px;
+	width: 400px;
+	height: 400px;
+}
+
+.reset-button {
+	position: fixed;
+	z-index: 1000;
+	margin: 0;
+	bottom: 1%;
+	left: 1%;
+	color: rgba(0,0,255,1);
+	font-size: 3em;
+	display: none;
+}
+
+.print {
+	position: fixed;
+	z-index: 1000;
+	margin: 0;
+	top: 3%;
+	left: 1%;
+	color: rgba(0,0,255,1);
+	font-size: 3em;
+	display: none;
+}
+
+.side-location, .side-time, .side-date, .side-moniker, .print-luna {
+	display: none;
+}
+
+/**************/
+
+@media print {
+
+	body {
+		width: 100%;
+		margin: 0;
+	}
+
+	span, p, .moniker-star, .print>a, .reset-button>a {
+		display: none;
+	}
+
+	.print-luna {
+		position: absolute;
+		z-index: 1000;
+		height: 100%;
+		width: 100%;
+		margin: 0;
+		text-align: center;
+		vertical-align: middle;
+		font-family: Helvetica;
+		font-size: 48pt;
+		display: block;
+		top: 40%;
+		text-transform: uppercase;
+	}
+	
+	.side-location {
+		margin: 0;
+		font-family: Helvetica;
+		font-size: 36pt;
+		display: block;
+		position: absolute;
+		z-index: 5000;
+		top: 0;
+		left: 0;
+	}
+
+	.side-time {
+		margin: 0;
+		font-family: Helvetica;
+		font-size: 36pt;
+		display: block;
+		position: absolute;
+		z-index: 5000;
+		top: 0;
+		right: 0;
+	}
+
+	.side-date {
+		margin: 0;
+		font-family: Helvetica;
+		font-size: 36pt;
+		display: block;
+		position: absolute;
+		z-index: 5000;
+		bottom: 0;
+		left: 0;
+	}
+
+	.side-moniker {
+		margin: 0;
+		font-family: Helvetica;
+		font-size: 36pt;
+		display: block;
+		position: absolute;
+		z-index: 5000;
+		bottom: 0;
+		right: 0;
+	}
+}

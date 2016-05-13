@@ -1,0 +1,114 @@
+html {
+	margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+	font-family: 'Times';
+	background-color: #131313;
+	text-align: center;
+}
+
+h1 {
+	margin: 0 0 0.5em 0;
+	font-size: 10vw;
+	line-height: 0.9em;
+	font-weight: 400;
+	letter-spacing: -0.0225em;
+}
+
+h2 {
+	margin: 0 0 3em 0;
+	text-transform: uppercase;
+	letter-spacing: 0.0225em;
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+
+p {
+	font-family: 'Courier New';
+	margin: 0;
+	text-indent: 2.5em;
+	font-size: 1.2rem;
+	line-height: 1.3em;
+	text-align: left;
+}
+
+p:first-of-type {
+	text-indent: 0em;
+}
+
+p:last-of-type {
+	margin-bottom: 5em;
+}
+
+p.caption {
+	margin-bottom: 2em;
+	text-indent: 0em;
+	text-align: center;
+}
+
+.container {
+	margin: 8em 16vw 40em 16vw;
+	padding: 5rem 5rem 5rem 5rem;
+	color: #000;
+}
+
+.container:hover {
+	background-color: #eee;
+	box-shadow: 0em 0em 10em 0em #0ff;
+}
+
+li {
+	list-style-type: none;
+	text-align: center;	
+	font-family: 'Times';
+	font-size: 7em;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: inherit;
+	font-size: inherit;
+	letter-spacing: -0.0225em;
+}
+
+a:hover {
+	text-decoration: line-through;
+}
+
+.arrow a {
+	position: fixed;
+	bottom: 0%;
+	left: 44%;
+
+	font-size: 12vw;
+}
+
+.arrow a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+img {
+	opacity: 0.8;
+	width: 500px;
+	margin-top: 2em;
+}
+
+@media (max-width: 1200px){
+	p {
+		font-size: 18pt;
+	}
+	.container {
+		margin: 40vw 10vw 60vw 10vw;
+		background-color: #eee;
+		box-shadow: 0em 0em 10em 0em #f00;
+	}
+	img {
+		width: 100%;
+		opacity: 1;
+	}
+}

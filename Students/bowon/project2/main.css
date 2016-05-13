@@ -1,0 +1,171 @@
+body {
+	margin: 0;
+	background-color: white;
+	font-family: Times;
+	width: 100%;
+	height: 100%;
+	color: black;
+	text-align: center;
+}
+
+/********/
+.red {
+	background-color: rgba(255, 0, 0, 0.5);
+}
+
+.green {
+	background-color: rgba(0,255,0,0.5);
+}
+
+.blue {
+	background-color: rgba(0,0,255,0.5);
+}
+
+.black {
+	background-color: rgba(0,0,0,0.3);
+}
+/********/
+
+.nav a {
+	font-family: Helvetica;
+	font-size: 2.5em;
+	letter-spacing: 0.025em;
+	font-weight: 800;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+
+	width: 320px;
+	border-bottom: solid 6px black;
+}
+
+.nav a:hover {
+	display: white;
+}
+
+.top, .right, .left, .bottom {
+	position: fixed;
+	z-index: 1000;
+}
+
+.top {
+	margin-left: -100px;
+	top: 5%;
+	left: 45%;
+}
+
+.right {
+	top: 50%;
+	right: 0%;
+	-webkit-transform: rotate(90deg);
+}
+
+.left {
+	top: 50%;
+	left: 0%;
+	-webkit-transform: rotate(-90deg);
+}
+
+.bottom {
+	margin-left: -100px;
+	bottom: 5%;
+	left: 45%;
+}
+
+/********/
+
+.square {
+	position: fixed;
+	top: 15%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto;
+	width: 50%;
+	height: 70%;
+	border: solid 5px black;
+	/*background-color: rgba(0,0,0, 0.95);*/
+}
+
+.page {
+	position: relative;
+	top: 26%;
+	margin: 0 auto;
+
+	width: 60%;
+	height: 75%;
+	opacity: 0%;
+	color: rgba(255, 0, 0, 0.5);
+}
+/*
+.page:hover {
+	color: black;
+}
+*/
+.page h1 {
+	margin: 0;
+	font-size: 6.5em;
+	line-height: 0.95em;
+	letter-spacing: -0.01em;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.page h2 {
+	font-size: 3em;
+	font-weight: 400;
+	letter-spacing: -0.025em;
+}
+
+.page p {
+	margin: 0;
+	text-indent: 2em;
+	text-align: left;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+.page p:first-of-type {
+	text-indent: 0em;
+}
+
+.page p:last-of-type {
+	margin-bottom: 5em;
+}
+
+.page p.quote {
+	font-style: italic;
+	letter-spacing: -0.02em;
+}
+
+.page p.quote-author {
+	text-align: right;
+	margin-bottom: 3em;
+}
+
+.image-one, .image-two, .image-three, .image-four {
+	position: fixed;
+	width: 500px;
+	height: 300px;
+	background-color: yellow;
+}
+
+.image-one {
+	top: -17.5%;
+	left: -17.5%;
+}
+
+.image-two {
+	top: -17.5%;
+	right: -17.5%;
+}
+
+.image-three {
+	bottom: -17.5%;
+	right: -17.5%;
+}
+
+.image-four {
+	bottom: -17.5%;
+	left: -17.5%;
+}

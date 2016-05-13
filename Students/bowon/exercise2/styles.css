@@ -1,0 +1,75 @@
+body {
+	background-color: #eee;
+	font-family: Times, serif;
+	color: #333;
+}
+
+h1 {
+	font-size: 5em;
+	line-height: 0.2em;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 1.5em;
+	line-height: 0.5em;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-weight: 400;
+}
+
+p {
+	letter-spacing: 0em;
+	font-size: 2em;
+	line-height: 1.4em;
+	/*border: solid 1px black;*/
+}
+
+p.matthew:hover {
+	background-color: #B1D2D3;
+	color: white;
+}
+
+p.john:hover {
+	background-color: #E83C2C;
+	color: white;
+}
+
+.matthew-text-color:hover {
+	color: #B1D2D3;
+}
+
+.john-text-color:hover {
+	color: #E83C2C;
+}
+
+#scale:hover {
+	font-size: 8em;
+}
+
+.title-container {
+	margin: 14em 0 5em 4em;
+}
+
+.container {
+	width: 100%;
+	margin: 0;
+}
+
+.matthew {
+	float: left;
+	margin: 0 0.5em 0.5em 0;
+	padding: 2em;
+	width: 39.5%;
+	background-color: white;
+	/*border: solid 1px black;*/
+}
+
+.john {
+	float: left;
+	margin: 0 0.5em 0.5em 0em;
+	padding: 2em;
+	width: 39.5%;
+	background-color: white;
+	/*border: solid 1px black;*/
+}

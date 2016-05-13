@@ -1,0 +1,108 @@
+body {
+	margin: 0;
+	font-family: 'Helvetica';
+	font-size: 1.25rem;
+	letter-spacing: 0.005em;
+}
+
+.luna-maurer, .studio-moniker, .time, 
+.date, .place, .description, .reset {
+	position: absolute;
+	margin: 0;
+	text-align: center;
+}
+
+/*.luna-maurer:hover, .studio-moniker:hover, .time:hover,
+.date:hover, .place:hover {
+	transform: skew(10deg);
+	animation-iteration: infinite;
+}*/
+
+h1, h2, h3, h4, p {
+	margin: 0;
+	display: none;
+	font-weight: 400;
+}
+
+.luna-maurer {
+	z-index: 0;
+	background-color: rgba(0,255,0,0.6);
+	color: rgba(0,0,0,0.75);
+
+	width: 600px;
+	height: 300px;
+	font-size: 8em;
+	line-height: 1.3em;
+}
+
+.studio-moniker {
+	z-index: 1;
+	background-color: rgba(255, 0, 0, 0.5);
+	color: rgba(0,0,0,0.5);
+	border-radius: 50%;
+	overflow: visible;
+
+	line-height: 200px;
+	width: 200px;
+	height: 200px;
+}
+
+.time {
+	z-index: 3;
+	width: 100px;
+	height: 50px;
+	border: solid 1px green;
+	font-size: 6em;
+	color: rgba(0,0,255,0.75);
+}
+
+.date {
+	z-index: 1;
+	width: 300px;
+	height: 100px;
+	font-size: 3em;
+	line-height: 1.2em;
+	color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,255,0.5);
+}
+
+.place {
+	z-index: 3;
+	width: 100px;
+	height: 50px;
+	font-size: 3em;
+	border: solid 1px red;
+	color: rgba(255,0,0,0.5);
+}
+
+.description {
+	padding: 20px;
+	top: 180px;
+	left: 60%;
+	width: 25%;
+	height: 62.5%;
+	/*z-index: -1;*/
+	text-align: left;
+	font-size: 0.75em;
+	line-height: 1.5em;
+	letter-spacing: 0.0125em;
+	border: solid 1px black;
+}
+
+.reset {
+	position: fixed;
+	bottom: 1%;
+	left: 1%;
+	text-decoration: none;
+	z-index: 1000;
+}
+
+.blink {
+	visibility: visible;
+}
+
+@media print {
+	@page {
+		background-color: black;
+	}
+}
