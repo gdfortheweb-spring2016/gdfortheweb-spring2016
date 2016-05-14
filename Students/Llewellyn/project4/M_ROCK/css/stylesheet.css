@@ -1,0 +1,147 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	q
+	uotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*END CSS RESET*/
+
+div {
+	width: 50%;
+	height: 50vh;
+	overflow: hidden;
+	margin: none;
+	z-index: 0;
+}
+
+img {
+	max-height: 100%;
+}
+
+video {
+	height: 110%;
+}
+
+a {
+	color: whitesmoke;
+}
+
+a:hover {
+	text-shadow: 0 0 10px whitesmoke;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.largetype {
+	padding-top: 2vw;
+	padding-left: 2vw;
+	position: absolute;
+	overflow: hidden;
+	font-size: 7vw;
+	font-family: Helvetica;
+	z-index: 1;
+	color: black;
+	letter-spacing: .5px;
+}
+
+#largetype2 {
+	padding-left: 52vw;	
+	float: right;
+	color: whitesmoke;
+}
+
+#smalltype {
+	padding-top: 51.75vh;
+	padding-left: 2.5vw;
+	width: 44%;
+	position: absolute;
+	overflow: hidden;
+	font-size: 1.65vw;
+	font-family: Helvetica;
+	z-index: 1;
+	color: whitesmoke;
+	line-height: 1.35;
+	letter-spacing: .3px;
+}
+
+#largetype3 {
+	margin-top: 51vh;
+	margin-left: 51vw;
+	position: absolute;
+	float: right;
+	font-size: 7vw;
+	font-family: Helvetica;
+	z-index: 1;
+	color: black;
+}
+
+.white {
+	background-color: whitesmoke;
+}
+
+.black {
+	background-color: black;
+}
+
+
+
+
+
+
+

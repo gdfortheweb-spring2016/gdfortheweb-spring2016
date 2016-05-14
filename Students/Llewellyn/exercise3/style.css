@@ -1,0 +1,15 @@
+.hovered {
+	font-size: 50px;
+}
+
+.clicked {
+	background-color: blue;
+}
+
+div {
+	width: 100px;
+	height: 100px;
+	background: red;
+	float: left;
+	border: dotted 10px white;
+}

@@ -1,0 +1,218 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/*table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}*/
+
+div {
+	width: 49%;
+	height: 50vh;
+	float: left;
+	overflow: hidden;
+	position: fixed;
+	margin: none;
+}
+
+.parent1 {
+	width: 49%;
+	height: 50vh;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	margin: none;
+}
+
+.div1 {
+	width: 50%;
+	height: 50vh;
+	float: left;
+	overflow: hidden;
+	position: fixed;
+	margin: none;
+	z-index: 0;
+}
+
+.div1text {
+	width: 90%;
+	height: 90%;
+	float: left;
+	position: absolute;
+	top:10%;
+	left: 13%;
+	z-index: 1;
+	font-size: 9vw;
+	font-family: helvetica;
+	letter-spacing: 6px;
+	margin-top: 5%;
+	margin-right: 10%;
+	margin-left: -9%;
+	margin-bottom: 6%;
+	text-align: center;
+	overflow: hidden;
+	color: whitesmoke;
+}
+
+.parent2 {
+	width: 49%;
+	height: 50vh;
+	float: right;
+	overflow: hidden;
+	position: relative;
+	margin: none;
+}
+
+.div2 {
+	width: 50%;
+	height: 50vh;
+	float: right;
+	overflow: hidden;
+	position: fixed;
+	margin-top: 0;
+	margin-left: 50%;
+}
+
+.div2text {
+	width: 49%;
+	height: 49vh;
+	float: right;
+	position: absolute;
+	z-index: 1;
+	font-size: 4vw;
+	font-family: helvetica;
+	letter-spacing: 5px;
+	line-height: 149%;
+	margin-top: 20%;
+	margin-right: 0;
+	margin-left: 25%;
+	margin-bottom: 15%;
+	text-align: center;
+	overflow: hidden;
+	color: whitesmoke;
+}
+
+.parent3 {
+	width: 49%;
+	height: 50vh;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	margin: none;
+}
+
+.div3 {
+	width: 50%;
+	height: 50vh;
+	float: left;
+	overflow: hidden;
+	position: fixed;
+	margin-top: 50vh;
+	margin-left: 0;
+}
+
+.div3text {
+	width: 90%;
+	height: 49vh;
+	float: left;
+	position: absolute;
+	z-index: 1;
+	font-size: 3vw;
+	font-family: helvetica;
+	letter-spacing: 1.5px;
+	line-height: 111%;
+	margin-top: 6%;
+	margin-right: 8%;
+	margin-left: 6%;
+	margin-bottom: -2px;
+	text-align: left;
+	overflow: hidden;
+	color: whitesmoke;
+}
+
+.parent4 {
+	width: 49%;
+	height: 50vh;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	margin: none;
+}
+
+.div4 {
+	width: 50%;
+	height: 50vh;
+	float: right;
+	overflow: hidden;
+	position: fixed;
+	margin-top: 50vh;
+	margin-left: 50%;
+}
+
+.div4text {
+	width: 90%;
+	height: 49vh;
+	float: left;
+	position: absolute;
+	z-index: 1;
+	font-size: 9vw;
+	font-family: helvetica;
+	letter-spacing: 1px;
+	margin-top: 10%;
+	margin-right: 0px;
+	margin-left: 10%;
+	margin-bottom: 5%;
+	text-align: center;
+	overflow: hidden;
+	color: whitesmoke;
+}
+
+.bigdiv {
+	width: 100%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}

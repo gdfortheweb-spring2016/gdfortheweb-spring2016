@@ -1,0 +1,154 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+a {
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+a:hover {
+	text-shadow: 0 0 30px green;
+}
+
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	q
+	uotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*END CSS RESET*/
+
+@font-face {
+    font-family: "terminal";
+    src: url("terminal-grotesque_open.otf");
+}
+
+div {
+	width: 50%;
+	height: 50vh;
+	overflow: hidden;
+	margin: none;
+	z-index: 0;
+}
+
+video {
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.left {
+	float: left;
+}
+
+.vinca {
+	float: left;
+	background-image: url(http://www.kunstforum.de/Archiv/portraits/K/K_207_111_001__Vinca_Kruk_0.jpg);
+	background-repeat: repeat;
+}
+
+.right {
+	float: right;
+}
+
+.largetype {
+	margin-top: 2vh;
+	margin-left: 2vw;
+	position: absolute;
+	overflow: hidden;
+	font-size: 7vw;
+	font-family: terminal;
+	z-index: 1;
+	color: #666666;
+}
+
+#largetype2 {
+	margin-top: 2vh;
+	margin-left: 51vw;	
+	float: right;
+	color: whitesmoke;
+	font-family: Helvetica;
+	opacity: .85;
+}
+
+#smalltype {
+	margin-top: 51vh;
+	margin-left: 51vw;
+	width: 44%;
+	position: absolute;
+	overflow: hidden;
+	font-size: 1.5vw;
+	font-family: Helvetica;
+	z-index: 1;
+	color: #666666;
+	line-height: 1.5;
+	letter-spacing: .3px;
+	float: right;
+
+}
+
+#largetype3 {
+	margin-top: 51.75vh;
+	margin-left: 2vw;
+	position: absolute;
+	float: right;
+	font-size: 7vw;
+	font-family: Helvetica;
+	z-index: 1;
+	color: #d9d9d9;
+	opacity: .85;
+}
+
+
+
+
+
+
+
+
