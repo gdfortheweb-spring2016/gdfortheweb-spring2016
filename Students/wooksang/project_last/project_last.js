@@ -27,9 +27,16 @@ $('.r403').click(function(){
 });
 
 $(document).ready(function(){
+$('.r501b').click(function(){
+    // $(this).find('h6').stop().fadeToggle(200);
+        $('.devra2').stop().fadeToggle(2250);
+    })
+});
+
+$(document).ready(function(){
 $('.nav1').click(function(){
     // $(this).find('h6').stop().fadeToggle(200);
-        $('.current').fadeToggle(2250);
+        $('.current').stop().fadeToggle(2250);
     })
 });
 

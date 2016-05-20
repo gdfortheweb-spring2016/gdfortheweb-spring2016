@@ -176,9 +176,9 @@ cursor:pointer;}
 .foot {font-weight: 300;
     font-size: 10px;
     float: left;
-    padding-bottom: 24px;
-    width: 12%;
-    padding-left: 2%;
+    padding-bottom: 36px;
+    width: 11%;
+    padding-left: 1%;
     line-height: 1.5;
 	}
 
@@ -186,6 +186,11 @@ cursor:pointer;}
     width: 33px;
     margin-right: 2%;
 	margin-left: -1.2%;}
+
+.foot2 {margin-left:2%;
+	float:left;
+	padding-left:3px;
+	width: 44px;}
 
 .image {
 	margin-left:2%;

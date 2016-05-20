@@ -1,0 +1,45 @@
+
+
+
+
+element.style {
+}
+body {
+    position: absolute;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+body, footer#footer, header#header, header#header.sticky, html {
+    background: #fff;
+}
+body {
+    font-size: 1;
+    line-height: 120%;
+    cursor: url(../img/cursor-default.png),auto;
+}
+.chromeframe, a, a:visited, body, mark {
+    color: #000;
+}
+body, fieldset, figure, form {
+    margin: 0;
+}
+user agent stylesheetbody {
+    display: block;
+    margin: 8px;
+}
+Inherited from html.js.flexbox.canvas.canvastext.webgl.no-touch.geolocation.postmessage.websqldatabase.indexeddb.hashchange.history.draganddrop.websockets.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.csstransforms3d.csstransitions.fontface.generatedcontent.video.audio.localstorage.sessionstorage.webworkers.applicationcache.svg.inlinesvg.smil.svgclippaths
+button, html, input, select, textarea {
+    font-family: sans-serif;
+    color: #000;
+}
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::selection element
+::selection {
+    background: #aaa;
+    text-shadow: none;
+}
