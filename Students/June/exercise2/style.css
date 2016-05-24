@@ -1,0 +1,67 @@
+body {
+	font-family: "Georgia";
+	background-color: #333333;
+	font-size: 16px;
+	margin: 80px;
+	line-height: 20px;
+	color: #ffd480;
+	margin-left: 320px;
+}
+
+p {
+	margin: 0 0 2em 2.3em;
+
+}
+
+header {
+	margin-left: -260px;}
+
+
+.hamlet-name {
+	font-family: "Helvetica";
+	color: #ffd480;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.hamlet-name2 {
+	font-family: "Helvetica";
+	color: gray;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+
+.action {
+	font-style: italic;
+	color: gray;
+	padding-right: 3px;
+	font-size: 100px;
+}
+
+footer {
+	margin: 60px 0 30px -205px;
+	color: gray;
+	padding-right: 3px;
+	font-size: 100px;
+	margin-bottom: 30px;
+}
+
+.action2 {
+	font-style: italic;
+}
+
+.ophelia-name {
+	font-family: "Helvetica";
+	color: #e6ccff;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.ophelia {
+	color: #e6ccff;
+
+}

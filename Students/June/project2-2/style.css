@@ -1,0 +1,175 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* START */
+
+
+body {
+	margin: 5px;
+	margin-top:6px;
+	font-family: monospace;
+	font-size: 22px;
+	line-height: 36px;
+	color: black;
+}
+
+.gradient {
+		/*background: -webkit-linear-gradient(white, #232323);*/
+		
+}
+
+header {
+	font-size: 25px;
+	margin-top: 30px;
+	margin-left: 28px;
+	margin-bottom: 15px;
+	line-height: 27px;
+	text-align: left;
+	color: white;
+	font-family: avenir;
+	background-color: #cccccc;
+	width: 80px;
+	padding: 7px 10px;
+}
+
+.title:link {
+	text-decoration: none;
+	color: white;
+	font-weight: normal;
+}
+
+.title:visited {
+	text-decoration: none;
+	color: white;
+}
+
+header:hover {
+	background-color: #bc91ff;
+
+}
+
+.intro {
+	font-family: avenir;
+	color: #cccccc;
+	font-size: 16px;
+	line-height: 20px;
+	font-style: italic;
+	width: 200px;
+	text-align: left;
+	margin-left: 35px;
+	margin-bottom: 120px;
+}
+	
+p {
+	text-transform: lowercase;
+	width: 89%;
+	float: left;
+	text-align: center;
+}
+
+a:link {
+	text-decoration: none;
+	color: #bc91ff;
+	font-weight: bold;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #bc91ff;
+}
+
+a:hover {
+	
+}
+
+.beg {
+	color: #cccccc;
+}
+
+.prev {
+	float: left;
+	margin-left: 10px;
+}
+
+.next {
+	float: right;
+	margin-right: 10px;
+}
+
+.iframe {
+	width: 450px;
+	margin: 0 auto;
+	height: 50px;
+	display: block;
+	border: 2px dashed #cccccc;
+	margin-bottom: -2px;
+	padding: 0;
+}
+
+
+
+div {
+	font-size: 20px;
+	margin-top: 140px;
+	line-height: 28px;
+	text-align: center;
+	color: white;
+	float: right;
+	margin-right: 35px;
+	display: block;
+	font-family: avenir;
+	width: 50px;
+	padding: 15px 5px;
+	background-color: #cccccc;
+}
+
+div:hover {
+	background-color: #bc91ff;
+}

@@ -1,0 +1,27 @@
+div {
+	width: 100px;
+	height: 100px;
+	/*display: inline-block;*/
+	float:left;
+	border-radius: 50%;
+	/*border: 2px solid hotpink;*/
+	font-family: helvetica;
+	color: blue;
+	margin: 5px;
+	background-color: #96ff00;
+	text-align: center;
+	font-size: 18px;
+}
+
+.hovered {
+	background-color: blue;
+	color: #96ff00;
+}
+
+.clicked {
+	width: 500px;
+	height: 500px;
+	/*transform: rotate(180deg);*/
+	font-size: 100px;
+	border-radius: 0%;
+}
